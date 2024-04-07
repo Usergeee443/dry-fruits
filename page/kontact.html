@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="./style.css" alt="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+
+    <div class="max-w-screen-xl flex-wrap items-center justify-between mx-auto">
+        <header class="w-full flex pt-[20px] pl-[10px] bg-opacity-50 backdrop-blur-lg py-4 fixed top-0 z-10 lg:gap-[10px] xl:gap-[20px]">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100" class="text-[17px] pt-[7px] hidden md:block">
+                <a href="../index.html" class="ml-[14px] hover:text-green-700">основной</a>
+                <a href="#" class="ml-[14px] text-green-700">contact</a>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="1000">
+                <a href="#" class="text-[32.5px] ml-[22.2rem] font-mono"><span class="text-green-700">DRY</span> market</a>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1100" class="text-[17px] pt-[7px] hidden md:block">
+                <a href="#"><iconify-icon class="text-[20px] mb-[-4px] pr-[4px] ml-[20.5rem]" icon="ic:baseline-phone"  style="color: black"></iconify-icon><span>+998 91 538 57 85</span></a>
+            </div>
+        </header>
+
+        
+        <div id="map-container" class="">
+            <iframe class="rounded-[30px] mt-[6rem]"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5407.443948856013!2d67.30581820710827!3d39.39259227653741!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4ccbaf97a83975%3A0x5a513b2757a9da3b!2s%22Do&#39;stlik%20Arena%22%20ministadioni!5e1!3m2!1sru!2s!4v1712489808119!5m2!1sru!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+
+        <hr class="mt-[50px] border-gray-400">
+
+        <footer class="bg-white ">
+            <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div class="md:flex md:justify-between">
+
+                    <a href="" class="text-[32.5px] ml-[1%] font-mono text-center"><span
+                            class="text-green-700">DRY</span>
+                        market</a>
+
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">About Us
+                            </h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://t.me/Coder_uz01" class="hover:text-green-700">Telegram</a>
+                                </li>
+                                <li>
+                                    <a href="" class="hover:text-green-700">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Contact
+                            </h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="" class="hover:text-green-700 ">+998331261626</a>
+                                </li>
+                                <li>
+                                    <a href="" class="hover:text-green-700">+998886116165</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Location
+                            </h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class="hover:text-green-700">Samarkand</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-6 border-gray-400 sm:mx-auto lg:my-8" />
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href=""
+                            class="hover:underline"></a>Dry fruits. All Rights Reserved.
+                    </span>
+                    <div class="flex mt-4 sm:justify-center gap-4 sm:mt-0">
+                        <a class="text-[19px] hover:text-green-700" href="https://web.telegram.org/a/#-1002008863372">
+                            <iconify-icon icon="ri:telegram-line"></iconify-icon>
+                        </a>
+                        <a class="text-[19px] hover:text-green-700" href="">
+                            <iconify-icon icon="mdi:instagram"></iconify-icon>
+                        </a>
+                        <a class="text-[19px] hover:text-green-700" href="https://www.youtube.com/c/EasyTutorialsVideo">
+                            <iconify-icon icon="iconoir:youtube"></iconify-icon>
+                        </a>
+                        <a class="text-[18px] hover:text-green-700" href="">
+                            <iconify-icon icon="teenyicons:facebook-outline"></iconify-icon>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-out',
+            delay: 0,
+        });
+    </script>  
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> 
+    <script src="./script.js"></script>
+
+</body>
+</html>
